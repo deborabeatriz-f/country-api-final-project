@@ -1,0 +1,18 @@
+.main {
+  font-size: 26px;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__title,
+.main__text {
+  z-index: 1;
+}
+
+.main__title {
+  margin-bottom: 50px;
+}
