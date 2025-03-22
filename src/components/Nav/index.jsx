@@ -11,6 +11,10 @@ export default function Nav() {
       <Link to="/country" className="nav__link">
         Country
       </Link>
+
+      <Link to="/about" className="nav__link">
+        About
+      </Link>
     </nav>
   );
 }
