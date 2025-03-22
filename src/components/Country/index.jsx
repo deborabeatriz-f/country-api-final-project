@@ -4,6 +4,7 @@ import Preloader from "../Preloader";
 import "./country.css";
 
 export default function Country() {
+  const [flagUrl, setFlagUrl] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [input, setInput] = useState("");
   const [countryData, setCountryData] = useState(null);
@@ -18,6 +19,7 @@ export default function Country() {
     try {
       const data = await searchCountry(input);
       setCountryData(data);
+      setFlagUrl(`https://flagsapi.com/${data.alpha2Code}/flat/64.png`);
     } catch (error) {
       setError(error.message);
     } finally {
@@ -47,6 +49,11 @@ export default function Country() {
         {error && <p className="country_error">{error}</p>}
         {countryData && (
           <div className="country__info">
+            <img
+              src={flagUrl}
+              alt={countryData.name}
+              className="country__flag"
+            />
             <h2 className="country__name">{countryData.name}</h2>
             <p className="country__capital">Capital: {countryData.capital}</p>
             <p className="country__region">Region: {countryData.region}</p>
