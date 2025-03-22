@@ -65,3 +65,18 @@
   line-height: 60px;
   font-size: 32px;
 }
+
+@media screen and (max-width: 1023px) {
+  .country__input {
+    padding: 10px 30px;
+  }
+
+  .country__name {
+    font-size: 36px;
+  }
+
+  .country__capital,
+  .country__region {
+    font-size: 26px;
+  }
+}
