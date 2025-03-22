@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./footer.css";
 import githubIcon from "../../images/github-icon.png";
 import linkedIn from "../../images/linkedin-icon.png";
+import spotifyIcon from "../../images/spotify-icon.png";
 
 export default function Footer() {
   return (
@@ -15,6 +16,7 @@ export default function Footer() {
       >
         <img src={githubIcon} alt="GitHub" className="footer__icon" />
       </Link>
+
       <Link
         to="https://www.linkedin.com/in/deborabeatrizfigueiro/?locale=en_US"
         className="footer__link"
@@ -22,6 +24,15 @@ export default function Footer() {
         target="_blank"
       >
         <img src={linkedIn} alt="LinkedIn" className="footer__icon" />
+      </Link>
+
+      <Link
+        to="https://open.spotify.com/intl-pt/artist/6Cp27M6FPdUOjDddLinTvs?si=wEirFSeITdSj0BQ2Dbd3Fg"
+        className="footer__link"
+        id="footer__link-spotify"
+        target="_blank"
+      >
+        <img src={spotifyIcon} alt="Spotify" className="footer__icon" />
       </Link>
     </footer>
   );
