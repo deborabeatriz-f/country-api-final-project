@@ -1,15 +1,17 @@
 #root {
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   text-align: center;
   background-image: url("../src/images/world-map.jpg");
   position: relative;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   font-family: Inter;
   color: white;
   font-weight: bold;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
 }
 
 #root::before {
