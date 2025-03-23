@@ -16,7 +16,7 @@
   margin: 0 auto;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .header__container {
     max-width: 1279px;
     width: 100vw;
@@ -31,5 +31,11 @@
 
   .header__title {
     font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .header__title {
+    font-size: 20px;
   }
 }
