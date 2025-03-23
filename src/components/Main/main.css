@@ -1,8 +1,8 @@
 .main {
   font-size: 26px;
-  max-width: 800px;
+  max-width: 880px;
   margin: 0 auto;
-  line-height: 40px;
+  line-height: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,10 +22,21 @@
     max-width: 680px;
   }
   .main__title {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   .main__text {
-    font-size: 18px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .main__title {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .main__text {
+    font-size: 12px;
   }
 }
