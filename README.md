@@ -31,3 +31,36 @@ The country data is retrieved from **[CountryLayer API](https://countrylayer.com
 - Vite
 - JavaScript (ES6+)
 - HTML5 & CSS3
+
+## How to run the project locally
+
+### Clone the repository:
+
+- git clone https://github.com/deborabeatriz-f/country-api-final-project.git
+
+### Navigate into the project folder:
+
+- cd country-api-final-project
+
+### Switch to the correct branch:
+
+- git checkout stage-react-api
+
+### Install dependencies:
+
+- npm install
+
+### Env configuration:
+
+1. Create a .env file in the root of the prject.
+2. Add your API key inside the .env file:
+
+- VITE_ACCESS_KEY
+
+### Start the development server:
+
+- npm run dev
+
+### Open your browser and go to:
+
+- http://localhost:5173
