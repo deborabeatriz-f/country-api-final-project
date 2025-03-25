@@ -64,3 +64,7 @@ The country data is retrieved from **[CountryLayer API](https://countrylayer.com
 ### Open your browser and go to:
 
 - http://localhost:5173
+
+### Country Api Project Link:
+
+- https://deborabeatriz-f.github.io/country-api-final-project/
