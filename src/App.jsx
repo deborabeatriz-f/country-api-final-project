@@ -13,7 +13,7 @@ export default function App() {
 
       <main className="container__main">
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/country-api-final-project/" element={<Main />} />
           <Route path="/country" element={<Country />} />
           <Route path="/about" element={<About />} />
         </Routes>
