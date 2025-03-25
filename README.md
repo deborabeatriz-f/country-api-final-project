@@ -52,7 +52,7 @@ The country data is retrieved from **[CountryLayer API](https://countrylayer.com
 
 ### Env configuration:
 
-1. Create a .env file in the root of the prject.
+1. Create a .env file in the root of the project.
 2. Add your API key inside the .env file:
 
 - VITE_ACCESS_KEY
