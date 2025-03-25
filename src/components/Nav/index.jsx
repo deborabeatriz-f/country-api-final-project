@@ -4,7 +4,7 @@ import "./nav.css";
 export default function Nav() {
   return (
     <nav className="nav">
-      <Link to="/" className="nav__link">
+      <Link to="/country-api-final-project/" className="nav__link">
         Home
       </Link>
 
